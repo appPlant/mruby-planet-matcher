@@ -108,7 +108,7 @@ class PlanetMatcher < BasicObject
 
         @not = match[1] == '%'
         @key = match[3] ? match[2] : 'id'
-        @exp = Regexp.new(value)
+        @exp = ::Regexp.new(value)
       end
 
       # Test if the crumb matches.
