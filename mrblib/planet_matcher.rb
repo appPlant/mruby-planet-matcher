@@ -68,7 +68,7 @@ class PlanetMatcher < BasicObject
   # @return [ Void ]
   def validate(crumbs)
     crumbs.each do |crumb|
-      Kernel.raise "invalid matcher: #{crumb}" unless CRUMBS_PATTERN =~ crumb
+      ::Kernel.raise "invalid matcher: #{crumb}" unless CRUMBS_PATTERN =~ crumb
     end
   end
 
