@@ -1,4 +1,4 @@
-# Planet matcher mgem for Orbit <br> [![Build Status](https://travis-ci.com/appPlant/mruby-planet-matcher.svg?branch=master)](https://travis-ci.com/appPlant/mruby-planet-matcher) [![Maintainability](https://api.codeclimate.com/v1/badges/0b865e700cc7ae2a5863/maintainability)](https://codeclimate.com/github/appPlant/mruby-planet-matcher/maintainability)
+# Planet matcher mgem for Orbit <br> [![Build Status](https://travis-ci.com/katzer/mruby-planet-matcher.svg?branch=master)](https://travis-ci.com/katzer/mruby-planet-matcher) [![Maintainability](https://api.codeclimate.com/v1/badges/0b865e700cc7ae2a5863/maintainability)](https://codeclimate.com/github/katzer/mruby-planet-matcher/maintainability)
 
 Select matching planets by a kind of flexible query syntax.
 
@@ -31,7 +31,7 @@ Add the line below to your `build_config.rb`:
 ```ruby
 MRuby::Build.new do |conf|
   # ... (snip) ...
-  conf.gem 'mruby-planet-matcher', github: 'appplant/mruby-planet-matcher'
+  conf.gem 'mruby-planet-matcher', github: 'katzer/mruby-planet-matcher'
 end
 ```
 
@@ -40,7 +40,7 @@ Or add this line to your aplication's `mrbgem.rake`:
 ```ruby
 MRuby::Gem::Specification.new('your-mrbgem') do |spec|
   # ... (snip) ...
-  spec.add_dependency 'mruby-planet-matcher', github: 'appplant/mruby-planet-matcher'
+  spec.add_dependency 'mruby-planet-matcher', github: 'katzer/mruby-planet-matcher'
 end
 ```
 
@@ -48,7 +48,7 @@ end
 
 Clone the repo:
     
-    $ git clone https://github.com/appplant/mruby-planet-matcher.git && cd mruby-planet-matcher/
+    $ git clone https://github.com/katzer/mruby-planet-matcher.git && cd mruby-planet-matcher/
 
 Compile the source:
 
@@ -60,7 +60,7 @@ Run the tests:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/appplant/mruby-planet-matcher.
+Bug reports and pull requests are welcome on GitHub at https://github.com/katzer/mruby-planet-matcher.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
@@ -68,18 +68,13 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/apppla
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-## Authors
-
-- Sebastián Katzer, Fa. appPlant GmbH
-
 ## License
 
 The mgem is available as open source under the terms of the [MIT License][license].
 
 Made with :heart: in Leipzig
 
-© 2019 [appPlant GmbH][appplant]
+© 2019 Sebastián Katzer
 
 [mruby]: https://github.com/mruby/mruby
 [license]: http://opensource.org/licenses/MIT
-[appplant]: www.appplant.de
